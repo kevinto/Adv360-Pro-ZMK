@@ -103,11 +103,21 @@
 
         cursor {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans     &trans                                      &trans  &trans    &trans    &trans        &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &kp LG(X)  &trans                                      &trans  &trans    &trans    &trans        &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &kp LG(C)  &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &kp LG(V)                  &trans      &trans                  &trans    &trans    &trans        &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans             &trans  &trans  &trans      &trans  &trans  &trans            &trans    &trans        &trans     &trans  &trans
+&trans  &trans     &trans  &trans  &trans     &trans     &trans                                      &trans  &trans    &trans    &trans        &trans     &trans  &trans
+&trans  &trans     &trans  &trans  &trans     &kp LG(X)  &trans                                      &trans  &trans    &trans    &trans        &trans     &trans  &trans
+&trans  &trans     &trans  &trans  &trans     &kp LG(C)  &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans  &trans
+&trans  &kp LG(A)  &trans  &trans  &kp LG(F)  &kp LG(V)                  &trans      &trans                  &trans    &trans    &trans        &trans     &trans  &trans
+&trans  &trans     &trans  &trans  &trans                &trans  &trans  &trans      &trans  &trans  &trans            &trans    &trans        &trans     &trans  &trans
+            >;
+        };
+
+        SYMBOL {
+            bindings = <
+&trans  &trans          &trans     &trans             &trans            &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LEFT_BRACE  &kp SQT    &kp DOUBLE_QUOTES  &kp RIGHT_BRACE   &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp CARET       &kp EQUAL  &kp UNDER          &kp DOLLAR        &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LESS_THAN   &kp PIPE   &kp MINUS          &kp GREATER_THAN  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans          &trans     &trans             &trans                    &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
